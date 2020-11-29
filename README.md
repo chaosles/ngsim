@@ -39,10 +39,7 @@ data format:
                                                                                                                                                                                                                                                                                                                                                                                      |
 | 20        | Preceding     | preceding       | number    | 同一车道上的铅车辆的车辆 ID。值"0"表示没有前一辆车 - 在研究部分结束时发生，由于此数据收集工作只记录了完整的轨迹（研究期间开始时已记录在该部分的车辆未记录）。
                                                                                                                                 |
-| 21        | Following     | following       | number    | 在同一车道上跟随主题车辆的车辆车辆 ID。值"0"表示没有以下车辆 - 出现在研究部分的开头和 onramp 中，因为此数据收集工作只记录了完整的轨迹（在研究期结束时未穿过该部分下游边界的车辆未记录）。
-                                                              |
-| 22        | Space_Headway | space_headway   | number    | 空间头在脚。间距提供车辆前中心与前一辆车前中心之间的距离。                                                                                                                                                                                                                                                                                                                                 |
-| 23        | Time_Headway  | time_headway    | number    | 时间进展（以秒为单位）。时间头路提供从车辆前中心（以车辆的速度）到前一辆车的前中心行驶的时间。进展值 99
-                                                                                                                                                                                                                                                                  |
-| 24        | Location      | location        | text      | 街道或高速公路名称
-                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 21        | Following     | following       | number    | 在同一车道上跟随主题车辆的车辆车辆 ID。值"0"表示没有以下车辆 - 出现在研究部分的开头和 onramp 中，因为此数据收集工作只记录了完整的轨迹（在研究期结束时未穿过该部分下游边界的车辆未记录） |
+| 22        | Space_Headway | space_headway   | number    | 空间头在脚。间距提供车辆前中心与前一辆车前中心之间的距离。                                                               |
+| 23        | Time_Headway  | time_headway    | number    | 时间进展（以秒为单位）。时间头路提供从车辆前中心（以车辆的速度）到前一辆车的前中心行驶的时间。进展值 99 |
+| 24        | Location      | location        | text      | 街道或高速公路名称 |
